@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#EEF5FF"
+    tools:context=".activity.SkyActivity">
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="DONT LET THE WEATHER SURPRISE YOU "-->
+<!--        android:textSize="30sp"-->
+<!--        android:gravity="center"-->
+<!--        android:paddingHorizontal="30dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="#074173" />-->
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:paddingHorizontal="40dp"/>
+
+<!--    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--        android:id="@+id/imageView2"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/logo"/>logo-->
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:paddingHorizontal="50dp"
+        android:text="Daily weather predictions are ready to help with your activities."
+        android:textColor="#074173"/>
+
+
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="90dp"
+        app:cardCornerRadius="39dp"
+        android:backgroundTint="#074173">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingVertical="10dp"
+            >
+
+            <TextView
+                android:id="@+id/intent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Continue"
+                android:gravity="center"
+                android:paddingVertical="5dp"
+                android:textSize="30sp"
+                android:textColor="#EEF5FF"
+                />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
