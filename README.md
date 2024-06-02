@@ -43,8 +43,8 @@ Untuk mendapatkan salinan lokal dan menjalankannya, ikuti langkah-langkah sederh
    - Pilih perangkat atau emulator
    - Klik tombol Run (tombol hijau)
   
-     # KLARIFIKASI
-         Kenapa ada korabotor di dalam projek saya ?  krna di laptop saya file saya ketika mau di push dia butuh autentikasi nah..masalahnya di alptop saya itu tidak bisa .saya sudah mencoba beberapa cara namun nihil jadi, jalan pintasnya saya suruh teman saya untuk push lewat laptopnya dengan cara dia menjadI korabotor dan saya tingal meng acc ny.
+# KLARIFIKASI
+Kenapa ada korabotor di dalam projek saya ?  krna di laptop saya file saya ketika mau di push dia butuh autentikasi nah..masalahnya di alptop saya itu tidak bisa .saya sudah mencoba beberapa cara namun nihil jadi, jalan pintasnya saya suruh teman saya untuk push lewat laptopnya dengan cara dia menjadI korabotor dan saya tingal meng acc ny.
 
 ## Tangkapan Layar
 <img src="https://github.com/khaerul21/WeatherWise/assets/113881057/eb37c279-933a-4cf9-82ac-c5ef71988e77" width="200">
